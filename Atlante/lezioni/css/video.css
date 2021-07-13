@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+
+    #video { background-color: #000; }
+    #controls { display: none; opacity: 0.85; color: #fff;  height: 30px; }
+    .control { float: left; height: 25px; width: 25px; margin-right: 5px; background-color: #001E25; text-align: center; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+    .control:last-child { margin-right: 0; }
+    .control:first-child { margin-left: 5px; }
+    #play span { display: block; font-size: 0px; line-height: 0; }
+    #play.play span { width: 0; height: 0; margin: 8px 0 0 8px; border-top: 5px solid #001E25; border-left: 10px solid #fff; border-bottom: 5px solid #001E25; }
+    #play.pause span { width: 3px; height: 10px; margin: 8px auto 0; border-top: 0px; border-left: 3px solid #fff; border-bottom: 0px; border-right: 3px solid #fff; }
+    #progress { width: 190px; }
+    #progress #progress_box { float: left; width: 100px; height: 9px; border: 1px solid #777; background-color: #001E25; margin: 7px 0 0 5px; overflow:hidden; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+    #progress #play_progress { display: block; width: 0px; height: 9px; background-color: #fff; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+    #progress #load_progress { display: block; width: 0px; height: 9px; background-color: #777; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+    #progress #play_time { float: left; margin: 7px 0 0 5px; font-size: 10px; line-height: 1; font-weight: normal; font-family: Helvetica, Arial, sans-serif;  }
+    #volume { width: 50px; visibility:hidden; }
+    #volume span { display: block; margin: 4px 0 0 5px; }
+    #volume ul { display: block; margin: 0; padding: 0; list-style: none; }
+    #volume ul li { float: left; margin: 0; padding: 0; list-style: none; width: 5px; margin-right: 2px; height: 0px; border-bottom: 18px solid #555; }
+    #volume ul li:nth-child(1) { border-bottom-width: 2px; height: 16px; }
+    #volume ul li:nth-child(2) { border-bottom-width: 4px; height: 14px; }
+    #volume ul li:nth-child(3) { border-bottom-width: 7px; height: 11px; }
+    #volume ul li:nth-child(4) { border-bottom-width: 10px; height: 8px; }
+    #volume ul li:nth-child(5) { border-bottom-width: 14px; height: 4px; }
+    #full_screen span { display: block; float: left; margin: 5px 0 0 5px; padding: 0; }
+    #full_screen span table { width: 20px; height: 20px; margin: 0; padding: 0; text-align: left; vertical-align: top; }
+    #full_screen span table td { margin: 0; padding: 0; text-align: left; vertical-align: top; }
+    #full_screen span table tr:first-child td:first-child { width: 9px; height: 9px; }
+    #full_screen .fs-corner { font-size: 0; line-height: 0; width: 0; }
+    #full_screen #fs_top_left { border: none; border-top: 6px solid #fff; border-right: 6px solid #001E25; }
+    #full_screen #fs_top_right { border: none; border-top: 6px solid #fff; border-left: 6px solid #001E25; }
+    #full_screen #fs_bottom_left { border: none; border-bottom: 6px solid #fff; border-right: 6px solid #001E25; }
+    #full_screen #fs_bottom_right { border: none; border-bottom: 6px solid #fff; border-left: 6px solid #001E25; }
+    #full_screen.fs-active #fs_top_left { border: none; border-bottom: 6px solid #fff; border-left: 6px solid #001E25; }
+    #full_screen.fs-active #fs_top_right { border: none; border-bottom: 6px solid #fff; border-right: 6px solid #001E25; }
+    #full_screen.fs-active #fs_bottom_left { border: none; border-top: 6px solid #fff; border-left: 6px solid #001E25; }
+    #full_screen.fs-active #fs_bottom_right { border: none; border-top: 6px solid #fff; border-right: 6px solid #001E25; }
+    #full_screen.fs-active span table tr:first-child td:first-child { width: 13px; height: 13px; }
+    #full_screen.fs-active span { display: block; float: left; margin: 3px 0 0 3px; padding: 0; }
+ 

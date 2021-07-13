@@ -1,0 +1,279 @@
+/* ======================================================================================================
+ GENERAL TYPOGRAPHY 
+=======================================================================================================*/
+
+/* ================= 1. CSS Reset ================= */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-family: Helvetica, Arial, Tahoma, sans-serif;
+}
+/* ================= General tags ================= */
+body {
+	font: 12px/1.7 Helvetica, Arial, Tahoma, sans-serif;
+	color:#666666;
+	-webkit-font-smoothing: antialiased;
+	backgorund:#f6f4e7;
+}
+
+a:link, a:visited, a:hover, a:active, a:focus {
+	text-decoration:none;
+	outline: none;
+	font-family: Helvetica, Arial, Tahoma, sans-serif;
+}
+a {
+	color:#d93e39;
+	font-family: Helvetica, Arial, Tahoma, sans-serif;
+}
+a:hover {
+	text-decoration:underline;
+}
+p {
+	color:#74665b;
+	font-size:12px;
+	font-family: Helvetica, Arial, Tahoma, sans-serif;
+	line-height:22px;
+}
+dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset, blockquote, article, p {
+	margin-bottom: 20px;
+}
+::selection {
+	background:#2e2823;
+	color:#FFFFFF;
+}
+::-moz-selection {
+background:#2e2823;
+color:#FFFFFF;
+}
+
+/* ================= List Styles ================= */
+ul {
+	list-style:none;
+	margin-top:0;
+}
+
+/* ================= Deviders ================= */
+.clear {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+}
+.padding3 {
+	padding-top:3px;
+	font-size:0;
+	line-height:0;
+}
+.padding5 {
+	padding-top:5px;
+	font-size:0;
+	line-height:0;
+}
+.padding10 {
+	padding-top:10px;
+	font-size:0;
+	line-height:0;
+}
+.padding12 {
+	padding-top:12px;
+	font-size:0;
+	line-height:0;
+}
+.padding15 {
+	padding-top:15px;
+	font-size:0;
+	line-height:0;
+}
+.padding17 {
+	padding-top:17px;
+	font-size:0;
+	line-height:0;
+}
+.padding20 {
+	padding-top:20px;
+	font-size:0;
+	line-height:0;
+}
+.padding25 {
+	padding-top:25px;
+	font-size:0;
+	line-height:0;
+}
+.padding30 {
+	padding-top:30px;
+	font-size:0;
+	line-height:0;
+}
+.padding40 {
+	padding-top:40px;
+	font-size:0;
+	line-height:0;
+}
+.padding50 {
+	padding-top:50px;
+	font-size:0;
+	line-height:0;
+}
+.padding60 {
+	padding-top:60px;
+	font-size:0;
+	line-height:0;
+}
+.padding80 {
+	padding-top:80px;
+	font-size:0;
+	line-height:0;
+}
+.none {
+	display:none;
+}
+.line {
+	font-size:0px;
+	border-top:1px solid #d9d9d9;
+}
+
+/* ======================================================================================================
+ GENERAL STRUCTURE
+=======================================================================================================*/
+/* === Clearfix === */
+.clear {
+	clear:both;
+	display:block;
+	height:0;
+	overflow:hidden;
+	visibility:hidden;
+	width:0
+}
+.clearfix:after {
+	clear:both;
+	content:' ';
+	display:block;
+	font-size:0;
+	height:0;
+	line-height:0;
+	visibility:hidden;
+	width:0
+}
+/* ================= Boxes ================= */
+.bordered_box {
+	border:1px solid #EFEFEF;
+	line-height:21px;
+	margin-bottom:20px;
+	margin-top:1px;
+}
+.bordered_box .title {
+	height:30px;
+	margin:-2px -2px 0 -2px;
+}
+.bordered_box .title h1 {
+	color:#FFF;
+	padding:5px 0 0 19px;
+}
+.tabs ul {
+	padding:0px 0 0 0;
+	margin:0;
+}
+.tabs ul li {
+	float:left;
+	margin:0 3px -2px 0;
+	border:1px solid #EFEFEF;
+	-webkit-border-radius: 3px 3px 0 0;
+	-moz-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
+}
+.tabs ul li a {
+	border-bottom: none;
+	display: block;
+	color:#595959;
+	overflow: hidden;
+	padding: 5px 15px 0 15px;
+	height: 24px;
+	background: #FBFBFB;
+	font-soze:12px;
+	font-weight:bold;
+}
+.tabs ul li a:hover {
+	background:#f2f2f2;
+	color:#D93E39;
+	text-decoration:none;
+}
+.tabs ul li.ui-tabs-selected a {
+	background:#FFF;
+	color:#d93e39;
+	border-bottom:1px solid #fff;
+	margin-bottom:-2px;
+}
+.ui-tabs {
+	position: relative;
+	padding: 0;
+	zoom: 1;
+}
+.ui-tabs .ui-tabs-panel {
+	display: block;
+	border-width: 0;
+	padding:0;
+	background: none;
+}
+.ui-tabs .ui-tabs-hide {
+	display: none !important;
+}
+.content_text {
+	padding:10px;
+	line-height:22px;
+	font-size:12px;
+	color:#4d4d4d;
+}
+.toggle {
+	font-size:12px;
+	padding:5px 0 0 10px;
+	cursor:pointer;
+	height:25px;
+	background: #FBFBFB;
+	border: 1px solid #EFEFEF;
+	font-weight:bold;
+}
+.toggle_active {
+	font-size:12px;
+	color:#595959;
+	padding:5px 0 0 10px;
+	cursor:pointer;
+	height:25px;
+	font-weight:bold;
+}
+.toggle_container {
+	line-height:22px;
+	font-size:12px;
+	color:#4d4d4d;
+	border: 1px solid #EFEFEF;
+	border-top:0px;
+}
+.toggle_container p {
+	padding:10px;
+	line-height:22px;
+	margin:0;
+}
+.toogle_box {
+	position: absolute;
+	top: 115px;
+	left: 30px;
+	width:300px;
+}
+.toogle_box .toggle .icon {
+	background:url("../images/toggle_open.png") no-repeat;
+	width:18px;
+	height:19px;
+	position:absolute;
+	right: 4px;
+	top: 10px;
+}
+.toogle_box .toggle_active .icon {
+	background:url("../images/toggle_close.png") no-repeat;
+	width:18px;
+	height:19px;
+	position:absolute;
+	right: 4px;
+	top: 10px;
+}
