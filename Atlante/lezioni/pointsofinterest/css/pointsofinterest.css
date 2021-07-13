@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+
+#wrapper{background: #ffffff; width: 960px; margin: 0 auto; min-height: 600px; padding-bottom: 25px;}
+h3 {text-align: center; font-size: 42px; font-family: Georgia, "Times New Roman", Times, serif; color: #333333; margin: 0px; padding: 0px;}
+h6{text-align: center; font-size: 20px; font-family: Georgia, "Times New Roman", Times, serif; color: #333333; margin: 25px 0px; padding: 0px;}
+
+
+.pointsofinterest{margin: 25px auto; width: 960px; font-family: Verdana, Geneva, sans-serif; font-size: 13px; color: #333333; height: 525px; height: 500px; overflow: hidden; margin-bottom: 25px;}
+.pointsofinterest h3{margin: 0px; font-size: 24px; text-transform: uppercase; padding: 0px;}
+.pointsofinterest img{position: absolute; z-index: 1; margin: 0px;}
+.pointsofinterest ul, .pointsofinterest li{margin: 0px; padding: 0px; position: absolute;}
+.pointsofinterest ul li{list-style-type: none;}
+.x, .y{display: none;}
+.poi_points  li{z-index: 1000; background-color:#F60 ; cursor: pointer; text-align: center;background: url(../images/punti_di_interesse2.png) no-repeat; width:30px; height:45px;}
+
+
+
+.poi_contents li{z-index: 1001; display: none; width: 400px; background: #ffffff; padding: 10px; -moz-box-shadow: 0px 0px 10px #666; box-shadow: 0px 0px 10px #666; -webkit-box-shadow: 0px 0px 10px #666;}
+
+
+.thum_vert {
+position:relative;
+width:200px;
+height:300px;
+margin-left:100px;
+}
+
+.thum_orizz {
+position:relative;
+width:300px;
+height:200px;
+margin-left:50px;
+}
+
+.thum_quad {
+position:relative;
+width:300px;
+height:300px;
+margin-left:50px;
+}
+
+.poi_arrow{display: block; position: absolute; z-index: 1001;}
+.arrow_left{height: 60px; width: 27px; background: url(../images/arrow_left.png); margin-left: -37px;}
+.arrow_right{height: 60px; width: 27px; background: url(../images/arrow_right.png);}
+
+.poi_close{position: absolute; margin-top: -25px; display: block; width: 30px; height: 30px; background: url(../images/close.png); cursor: pointer;}
+.close_left{margin-left: 400px;}
+.close_right{margin-left: -30px;}
